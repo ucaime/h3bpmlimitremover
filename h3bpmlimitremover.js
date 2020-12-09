@@ -10,5 +10,5 @@
 
 (function() {
     'use strict';
-    GM_addStyle(".mainwrappermask { filter:none !important; }.limitmodal-mask{display:none !important;}");
+    GM_addStyle(".mainwrappermask { filter:none !important; }.limitmodal-mask{display:none !important;}.mainwrapper.mainwrappermask::before{position:unset !important;}");
 })();
